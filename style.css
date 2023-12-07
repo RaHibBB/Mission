@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 1128px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .container.first-section {
@@ -35,8 +35,6 @@ img {
 
 .s1-left-side h1 {
     color: #333;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Yeseva One;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -76,4 +74,215 @@ button a {
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+}
+
+/* Second Section */
+.global-h1 {
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+}
+
+.global-h1 span {
+    color: #FFAD5A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+.s2-card{
+    display: flex;
+    gap: 30px;
+    padding: 70px 0px;
+}
+.card-style{
+    padding: 30px 30px;
+    text-align: left;
+    border-radius:26px;
+}
+.card-style img{
+    width: 126px;
+    height: 126px;
+}
+.card-style h3{
+    color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+}
+
+.card-1{
+    width: 33.33%;
+    background-color:#4F9DA61A ;
+}
+.card-2{
+    width: 33.33%;
+    background-color: rgba(255, 89, 89, 0.10);
+}
+.card-3{
+    width: 33.33%;
+    background-color: #FFF4D6;
+}
+/* Third Section */
+.third-section-content{
+    background-image: url(./Images/person/Group\ 57403.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    padding: 70px 0px;
+    background-size: 150px 150px;
+}
+.third-content{
+    display: flex;
+    gap: 100px;
+    
+}
+.t3-left{
+    width: 40%;
+    position: relative;
+}
+.t3-left.image-1 img{
+    width: 400px;
+height: 400px;
+}
+img.shape-1 {
+    position: absolute;
+    z-index: -1;
+    right: 364px;
+    width: 227px;
+    height: 227px;
+    top: 72px;
+}
+.t3-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.t3-right h2 {
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Fourth Section */
+.fourth-section-content{
+    background-image: url(./Images/person/Group\ 57403.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    padding: 70px 0px;
+    background-size: 150px 150px;
+}
+.fourth-content{
+    display: flex;
+    gap: 100px;
+    
+}
+.t4-left{
+    width: 40%;
+    position: relative;
+}
+.t4-left.image-2 img{
+    width: 400px;
+height: 400px;
+}
+img.shape-2 {
+    position: absolute;
+    z-index: -1;
+    left: 350px;
+    width: 227px;
+    height: 227px;
+    top: 334px;
+}
+.t4-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.t4-right h2 {
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Fifth Section */
+.fifth-section{
+    padding: 70px 0px;
+}
+.fifth-content{
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+}
+.t5-left{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    
+}
+img.image-5 {
+    width: 229px;
+    height: 459px;
+}
+img.shape-5 {
+    position: absolute;
+    z-index: -1;
+    right: 299px;
+    width: 147px;
+    height: 147px;
+    top: -30px;
+}
+img.shape-6 {
+    position: absolute;
+    z-index: -1;
+    right: 350px;
+    width: 77px;
+    height: 77px;
+    bottom: 1px;
+}
+img.shape-7 {
+    position: absolute;
+    z-index: -1;
+    left: 350px;
+    width: 77px;
+    height: 77px;
+    bottom: 106px;
+}
+.t5-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: center;
+}
+.t5-right h1 {
+    text-align: left;
+    line-height: 48px;
+    font-weight: 700;
+}
+.t5-right p {
+    text-align: left;
+}
+/* Footer */
+footer{
+    padding: 40px 0px;
+    text-align: center;
+    background: #0B0D17;
+    color: #FFF;
+}
+footer h1 {
+    color: #fff !important;
 }
